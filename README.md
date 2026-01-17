@@ -2,8 +2,43 @@
 
 A robust Node.js/Express backend API for managing leads with comprehensive authentication, search, filtering, sorting, and pagination capabilities. Built with TypeScript, Prisma ORM, and MongoDB.
 
+## Live Demo
+
+- **Backend API**: [https://lead-management-backend-yvna.onrender.com](https://lead-management-backend-yvna.onrender.com)
+- **Frontend**: [https://lead-management-frontend-amber.vercel.app/dashboard](https://lead-management-frontend-amber.vercel.app/dashboard)
+
+## GitHub Repositories
+
+- **Backend Repository**: [https://github.com/Aashutosh2004011/lead_management_backend](https://github.com/Aashutosh2004011/lead_management_backend)
+- **Frontend Repository**: [https://github.com/Aashutosh2004011/lead_management_frontend](https://github.com/Aashutosh2004011/lead_management_frontend)
+
+### How to Access the Live Application
+
+To ensure the app works properly, follow these steps in order:
+
+1. **First, visit the Backend URL**: [https://lead-management-backend-yvna.onrender.com](https://lead-management-backend-yvna.onrender.com)
+   - **Important**: Render's free tier spins down after 15 minutes of inactivity
+   - This wakes up the backend server (may take 30-60 seconds on first load)
+   - Wait for the backend to respond - you should see a JSON response or API message
+   - This ensures the backend is running before the frontend tries to connect
+
+2. **Then, visit the Frontend URL**: [https://lead-management-frontend-amber.vercel.app/dashboard](https://lead-management-frontend-amber.vercel.app/dashboard)
+   - The frontend will now successfully connect to the active backend
+   - Login with the demo credentials below
+   - All features will work perfectly (analytics, leads list, search, filtering, etc.)
+
+**Demo Credentials**:
+```
+Email: demo@example.com
+Password: demo123
+```
+
+**Note**: If you encounter connection errors on the frontend, make sure you visited the backend URL first and waited for it to respond.
+
 ## Table of Contents
 
+- [Live Demo](#live-demo)
+- [GitHub Repositories](#github-repositories)
 - [Overview](#overview)
 - [Tech Stack](#tech-stack)
 - [Features](#features)
